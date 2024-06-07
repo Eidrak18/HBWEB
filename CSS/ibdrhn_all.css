@@ -1,0 +1,365 @@
+/* ibdrhn gaps */
+
+.gap_10{
+    gap: 10px;
+}
+.gap_20{
+    gap: 20px;
+}
+.gap_30{
+    gap: 30px;
+}
+.gap_50{
+    gap: 50px;
+}
+.gap_100{
+    gap: 100px;
+}
+.gap_200{
+    gap: 200px;
+}
+
+/* margins */
+
+.m_auto{
+    margin: auto;
+}
+
+.m_0{
+    margin: 0;
+}
+/* X axis */
+.margin_x_10{
+    margin-inline: 10px;
+}
+.margin_x_20{
+    margin-inline: 20px;
+}
+.margin_x_50{
+    margin-inline: 50px;
+}
+.margin_x_100{
+    margin-inline: 100px;
+}
+/* Y axis */
+.margin_y_10{
+    margin-block: 10px;
+}
+.margin_y_20{
+    margin-block: 20px;
+}
+.margin_y_50{
+    margin-block: 50px;
+}
+.margin_y_100{
+    margin-block: 100px;
+}
+
+/* Padding */
+/* X axis */
+.margin_x_10{
+    margin-inline: 10px;
+}
+.margin_x_20{
+    margin-inline: 20px;
+}
+.margin_x_50{
+    margin-inline: 50px;
+}
+.margin_x_100{
+    margin-inline: 100px;
+}
+/* Y axis */
+.margin_y_10{
+    margin-block: 10px;
+}
+.margin_y_20{
+    margin-block: 20px;
+}
+.margin_y_50{
+    margin-block: 50px;
+}
+.margin_y_100{
+    margin-block: 100px;
+}
+
+/* buttons */
+
+.btn{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.btn_border{
+    border: 2px solid inherit;
+}
+
+.btn:hover{
+    text-decoration: underline;
+}
+
+.btn:focus{
+    background-color: red;
+    color: white;
+}
+
+/* Links */
+
+._a{
+    text-decoration: none;
+    color: inherit;
+}
+._a:hover,
+._focus{
+    text-decoration: none;
+}
+._a:visited{
+    font-weight: bold;
+}
+/* Widths */
+
+.w_full{
+    width: 100%;
+}
+.w_full-v{
+    width: 100vw;
+}
+.w_half{
+    width: 50%;
+}
+
+.w_100{
+    width: 100px;
+}
+.w_150{
+    width: 150px;
+}
+.w_200{
+    width: 200px;
+}
+.w_250{
+    width: 250px;
+}
+.w_500{
+    width: 500px;
+}
+
+/* Hights */
+
+.h_full{
+    width: 100%;
+}
+.h_full-v{
+    width: 100vw;
+}
+.h_half{
+    width: 50%;
+}
+
+.h_100{
+    width: 100px;
+}
+.h_150{
+    width: 150px;
+}
+.h_200{
+    width: 200px;
+}
+.h_250{
+    width: 250px;
+}
+.h_500{
+    width: 500px;
+}
+
+/* additional sizes */
+
+._sq{
+    width: 100px;
+    height: 100px;
+}
+
+.scale_2{
+    scale: 2;
+}
+.scale_3{
+    scale: 3;
+}
+.scale_4{
+    scale: 4;
+}
+
+.scale_2-h,
+.scale_3-h,
+.scale_4-h{
+    scale: 1;
+}
+
+.scale_2-h:hover{
+    scale: 2;
+}
+.scale_3-h:hover{
+    scale: 3;
+}
+.scale_4-h:hover{
+    scale: 4;
+}
+
+/* fonts */
+
+.serif{
+    font-family: serif;
+}
+.sans-serif{
+    font-family: sans-serif;
+}
+
+/* font-sizes */
+.fs_48{
+    font-size: 48px;
+}
+.fs_44{
+    font-size: 44px;
+}
+.fs_40{
+    font-size: 40px;
+}
+.fs_24{
+    font-size: 24px;
+}
+.fs_15{
+    font-size: 15px;
+}
+.fs_10{
+    font-size: 10px;
+}
+
+/* colours */
+.black{
+    color: #000;
+}
+.white{
+    color: #fff;
+}
+
+/* Flexbox and Grid*/
+
+.df{
+    display: flex;
+}
+.dg{
+    display: grid;
+}
+
+.dif{
+    display: inline-flex;
+}
+.dig{
+    display: inline-grid;
+}
+
+/* for parents */
+.ais{
+    align-items: start;
+}
+.aic{
+    align-items: center;
+}
+.aie{
+    align-items: end;
+}
+
+.jcs{
+    justify-content: start;
+}
+.jcc{
+    justify-content: center;
+}
+.jce{
+    justify-content: end;
+}
+
+.jcsb{
+    justify-content: space-between;
+}
+.jcsa{
+    justify-content: space-around;
+}
+.jcse{
+    justify-content: space-evenly;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+.wrap-r{
+    flex-wrap: wrap-reverse;
+}
+
+.row{
+    flex-direction: row;
+}
+.row-r{
+    flex-direction: row-reverse;
+}
+.column{
+    flex-direction: column;
+}
+.column-r{
+    flex-direction: column;
+}
+
+.pic{
+    place-items: center;
+}
+/* for child */
+
+.ais{
+    align-self: start;
+}
+.aic{
+   align-self: center; 
+}
+.aie{
+    align-self: end;
+}
+
+.jss{
+    justify-self: start;
+}
+.jsc{
+   justify-self: center; 
+}
+.jse{
+    justify-self: end;
+}
+
+.bg_warning{
+    background-color: red;
+    color: white;
+}
+.color_warning{
+    color: red;
+}
+
+.bg_tick{
+    background-color: green;
+    color: white;
+}
+.color_tick{
+    color: green;
+}
+
+.navlinks{
+    list-style-type: none;
+}
+
+/* position */
+
+.fixed{
+    position: fixed;
+}
+
+
+
